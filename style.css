@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+/* #box{
+    height: 400px;
+    width: 400px;
+    /* background: linear-gradient(blue,red,yellow); */
+    /* background-image: url(https://images.unsplash.com/photo-1738417715244-338e5a70bdda?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: bottom; */
+ */
+/* background size cover means to cover whole div */
+/* #car1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    z-index: 10;
+
+}
+#car2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 40;
+}
+#car3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+} */
+/* absolute is a property that enable the propety through which we can move it anywhere we want  */
+/* #parent{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    position: relative;
+} */
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color:yellowgreen;
+    display: flex;
+}
+.child1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.child2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.child3{
+    height: 200px;
+    width: 200px;
+    background-color:aqua;
+}
+/* display flex is for make in a line and align items acts as rows */
